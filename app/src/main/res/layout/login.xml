@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:contest=".login">
+
+    <TextView
+        android:id="@+id/HenkanView"
+        android:layout_width="410dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/amitabhs"
+        android:fontFamily="@font/bigfish_font"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/LoginView"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/HenkanView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/LoginView"
+        android:fontFamily="@font/signwood"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/usernameInput"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:hint="@string/EnterUsername"
+        android:autofillHints="@string/EnterEmail"
+        android:layout_below="@id/LoginView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/passInput"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:hint="@string/EnterPassword"
+        android:autofillHints="password"
+        android:layout_below="@id/usernameInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/LoginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passInput"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="loginCheck"
+        android:text="@string/LoginView" />
+
+    <Button
+        android:id="@+id/gotoSignupButton"
+        android:layout_below="@id/LoginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/SignupView"
+        android:onClick="signupPage"
+        />
+
+        <TextView
+            android:id="@+id/gotoHomepage"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/gotoSignupButton"
+            android:layout_margin="40dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/noLogin"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:onClick="gotoHome"
+            />
+
+</RelativeLayout>
