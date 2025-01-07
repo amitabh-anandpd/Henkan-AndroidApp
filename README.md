@@ -25,3 +25,20 @@ Henkan is an Android application built for a clothing store that provides users 
 2. Open the project in Android Studio.
 3. Sync Gradle files.
 4. Run the app on an emulator or connected Android device.
+
+## API Integration
+The app is integrated with a Flask backend API for managing user accounts and product data. The API endpoints include:
+
+User Authentication:
+`POST /login` - User login
+`POST /signup` - User registration
+Product Management:
+`GET /products` - Fetch product list
+`GET /products/<id>` - Fetch product details
+
+# Contact
+If you have any questions or suggestions, feel free to reach out!
+
+Author: Amitabh Anand
+Email: [amitabh.anandpd@gmail.com](mailto:amitabh.anandpd@gmail.com)
+GitHub: [amitabh-anandpd](https://github.com/amitabh-anandpd)
