@@ -40,5 +40,7 @@ Product Management:
 If you have any questions or suggestions, feel free to reach out!
 
 Author: Amitabh Anand
+
 Email: [amitabh.anandpd@gmail.com](mailto:amitabh.anandpd@gmail.com)
+
 GitHub: [amitabh-anandpd](https://github.com/amitabh-anandpd)
